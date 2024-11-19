@@ -6,6 +6,24 @@
   width: 100%;
   overflow: hidden;
   text-align: center;
+  padding: 0 32px;
+
+  .slide-btn{
+    z-index: 200;
+    background-color: transparent;
+    border: 0;
+    top: calc(50% - 38px);
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .prev-btn{
+    left: -32px;
+  }
+
+  .next-btn{
+    right: -32px; 
+  }
 
   .custom-col {
     padding: 0 16px;

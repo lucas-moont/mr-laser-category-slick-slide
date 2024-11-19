@@ -7,11 +7,15 @@ $(document).ready(function () {
     autoplay: true,
     autoplaySpeed: 2000,
     prevArrow: `
-      <button class='slideBtn prevBtn'>
+      <button class='slide-btn prev-btn'>
         <img src='https://mrlaser.com.br/wp-content/uploads/2024/11/Vector-7.png'>
       </button>  
     `,
-    nextArrow:'',
+    nextArrow:`
+      <button class='slide-btn next-btn'>
+        <img src='https://mrlaser.com.br/wp-content/uploads/2024/11/Vector-5.svg'>
+      </button>
+    `,
     responsive: [
       {
         breakpoint: 500,
